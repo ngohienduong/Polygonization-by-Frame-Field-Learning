@@ -11,13 +11,6 @@ import sys
 import torch
 import torch.multiprocessing
 
-try:
-    __import__("frame_field_learning.local_utils")
-except ImportError:
-    print("ERROR: The frame_field_learning package is not installed! "
-          "Execute script setup.sh to install local dependencies such as frame_field_learning in develop mode.")
-    exit()
-
 import frame_field_learning.local_utils
 
 from child_processes import train_process, eval_process

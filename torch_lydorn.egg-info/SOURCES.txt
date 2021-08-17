@@ -1,0 +1,6 @@
+README.md
+setup.py
+torch_lydorn.egg-info/PKG-INFO
+torch_lydorn.egg-info/SOURCES.txt
+torch_lydorn.egg-info/dependency_links.txt
+torch_lydorn.egg-info/top_level.txt
